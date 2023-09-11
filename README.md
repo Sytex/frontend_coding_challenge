@@ -30,9 +30,9 @@ group for the "General Information", and another group for the "5G Cell Informat
 
 We will provide mocked example of a couple of templates. The coding challenge consists in UI views that will allow the user to:
 
-- Search from a list of forms and filter by code and/or description
-- Display the structure of the selected form in friendly and understandable way for the user.
-- Be able to answer a question with appropriate validations and sanitizations
+- View a list of forms and search by code and/or description.
+- Select a form and view the structure of the selected form in friendly and understandable way.
+- Be able to answer entries with appropriate validations and sanitizations
 
 A `Form` contains a set of entries and groups. Each `Entry` has some metadata, and an `input_type`.
 
@@ -75,7 +75,7 @@ We'll check for these things in order of importance:
 - Clean code
 - Test coverage
 - Correct use of css selectors and stylesheets
-- Use [Angular framework](https://angular.io)
+- Use of [Angular framework](https://angular.io)
 - Clean architecture
 
 As you'll be subject to time constrains while doing this assignment, we expect you to choose what to prioritize
