@@ -97,4 +97,5 @@ accordingly.
 
 If you have any questions regarding this assignment or need to review some ideas, let us know within an issue in
 your repository and we'll answer promptly! Alternatively you can [send us an email](mailto:front@sytex.io).
+
 # frontend_coding_challenge
