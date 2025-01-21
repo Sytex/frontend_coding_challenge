@@ -66,7 +66,7 @@ We'll check for these things in order of importance:
 
 ## Nice to haves
 
-- State management implementing BloC pattern (You will find a brief example of how we implement it at Sytex in this repo)
+- State management implementing BloC pattern (You will find a brief example of how we implement it at Sytex in this file: [BloC implementation example.md](./BloC%20implementation%20example.md))
 - Test coverage
 - Correct use of css selectors and stylesheets
 
