@@ -4,27 +4,17 @@ This repository holds a coding challenge for devs applying for frontend jobs @ [
 
 ## Context
 
-In this coding challenge, we will provide you with a real (albeit very diluted) business use case. The objective
-is that you design an UI to consume and show forms provided by a set of dummy APIs.
+In this coding challenge, we will provide you with a real (albeit very diluted) business use case. The objective is that you design an UI to consume and show forms provided by a set of dummy APIs.
 
 ## The challenge!
 
-In Sytex, a Form (think Google Forms) is used to gather information in the field. Our users would go to
-(sometimes _very_) remote locations to do some type of installation, improvements, upgrades or maintenance in
-the field. You can picture someone driving to the middle of the Atacama desert to repair a solar panel, or to a
-Brazilian _morro_ in Rio to install a new 5G cell.
+In Sytex, a Form (think Google Forms) is used to gather information in the field. Our users would go to (sometimes _very_) remote locations to do some type of installation, improvements, upgrades or maintenance in the field. You can picture someone driving to the middle of the Atacama desert to repair a solar panel, or to a Brazilian _morro_ in Rio to install a new 5G cell.
 
-During and after the work is done, data must be gathered to make sure the job was done correctly, and to inform
-the rest of the organization about the status and results.
+During and after the work is done, data must be gathered to make sure the job was done correctly, and to inform the rest of the organization about the status and results.
 
-Forms are based on a template. The template is the set of questions (form entries) that will need to be answered
-in the field. For example, the questions for the worker repairing a solar panel would be very different that for
-the worker installing a brand new 5G cell.
+Forms are based on a template. The template is the set of questions (form entries) that will need to be answered in the field. For example, the questions for the worker repairing a solar panel would be very different that for the worker installing a brand new 5G cell.
 
-Entries are grouped, so that the form can be presented in a way that makes sense to the end user. For example,
-the form for the worker repairing a solar panel would have a group for the "General Information", and another
-group for the "Solar Panel Information". The form for the worker installing a brand new 5G cell would have a
-group for the "General Information", and another group for the "5G Cell Information".
+Entries are grouped, so that the form can be presented in a way that makes sense to the end user. For example, the form for the worker repairing a solar panel would have a group for the "General Information", and another group for the "Solar Panel Information". The form for the worker installing a brand new 5G cell would have a group for the "General Information", and another group for the "5G Cell Information".
 
 ### Objectives
 
@@ -58,11 +48,9 @@ Their `input_type` represents the action the user needs to do to answer ("fill")
 
 ## What we expect
 
-You can go for whatever you think it's the best solution for this assignment, both code and UI design! Just a
-couple of pointers:
+You can go for whatever you think it's the best solution for this assignment, both code and UI design! Just a couple of pointers:
 
-- Use javascript (preferable typescript) as the main programming language, but any style, framework, coding tooling you feel comfortable
-  with.
+- Use [Angular framework](https://angular.dev) (TypeScript) as the main programming language.
 - Use any data persistence (memory included) as long as the objectives are met.
 
 We'll check for these things in order of importance:
@@ -70,16 +58,19 @@ We'll check for these things in order of importance:
 - Whether the solution embraces standard software development patterns and practices.
 - A good UI/UX approach.
 
-## Nice to haves
+## Must have's
 
+- Usage of latest Angular features such as signals and computed expressions
 - Clean code
-- Test coverage
-- Correct use of css selectors and stylesheets
-- Use of [Angular framework](https://angular.io)
 - Clean architecture
 
-As you'll be subject to time constrains while doing this assignment, we expect you to choose what to prioritize
-accordingly.
+## Nice to haves
+
+- State management implementing BloC pattern (You will find a brief example of how we implement it at Sytex in this repo)
+- Test coverage
+- Correct use of css selectors and stylesheets
+
+As you may be subject to time constrains while doing this assignment, we expect you to choose what to prioritize accordingly.
 
 ## What you'll need to do
 
@@ -90,12 +81,10 @@ accordingly.
 4. Upload your code to a new repository
    - do not create a fork
    - do not create a pull request
-5. [Send us the link](mailto:front@sytex.io) to your repository with the solution - if you don't like the idea of your solution to be publicly available make sure to create a private
-   repository and invite [juanjo-ferrero](https://github.com/juanjo-ferrero), [adolfobushi](https://github.com/adolfobushi).
+5. [Send us the link](mailto:front@sytex.io) to your repository with the solution - if you don't like the idea of your solution to be publicly available make sure to create a private repository and invite [juanjo-ferrero](https://github.com/juanjo-ferrero), [adolfobushi](https://github.com/adolfobushi).
 
 ## Questions?
 
-If you have any questions regarding this assignment or need to review some ideas, let us know within an issue in
-your repository and we'll answer promptly! Alternatively you can [send us an email](mailto:front@sytex.io).
+If you have any questions regarding this assignment or need to review some ideas, let us know within an issue in your repository and we'll answer promptly! Alternatively you can [send us an email](mailto:front@sytex.io).
 
 # frontend_coding_challenge
