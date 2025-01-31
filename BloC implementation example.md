@@ -41,7 +41,7 @@ export class InitialState extends State {}
 export class LoadingState extends State {}
 
 export class LoadedState extends State {
-  constructor(public readonly items: Item[]) {
+  constructor(public items: Item[]) {
     super();
   }
 }
