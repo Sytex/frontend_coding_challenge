@@ -2,6 +2,7 @@
 
 ```typescript
 import { ExampleCubit } from "./cubit";
+import { Item } from "./item.ts";
 
 @Component({
   ...
@@ -27,11 +28,6 @@ export class ExampleComponent implements OnInit {
   getItems() {
     this._exampleCubit.getItems();
   }
-}
-
-export type Item = {
-  id: string;
-  name: string;
 }
 ```
 
@@ -63,13 +59,22 @@ export class ExampleCubit extends Cubit<State> {
     super(new InitialState());
   }
 
-  getItems(): void {
+  async getItems(): void {
     this.emit(new LoadingState());
 
     // get items from repository
-    const items = doSomethingToGetItems();
+    const items = await doSomethingToGetItems();
 
     this.emit(new LoadedState(items));
   }
+}
+```
+
+# item.ts
+
+```typescript
+export type Item = {
+  id: string;
+  name: string;
 }
 ```
